@@ -39,6 +39,8 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'rest_framework',
     'jwt_auth',
+    'exercise',
+    'category'
 ]
 
 AUTH_USER_MODEL='jwt_auth.User'

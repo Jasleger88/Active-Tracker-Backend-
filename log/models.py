@@ -1,11 +1,9 @@
 from django.db import models
-
-from django.db import models
 from django.contrib.auth.models import User
 
 class Log(models.Model):
     def __str__(self):
-        return f'{self.user.username} - {self.exercise.name} on {self.date}'
+        return f'{self.owner.username} - {self.exercise.name} on {self.date}'
     
     date = models.DateField()
     duration = models.FloatField() 

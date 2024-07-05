@@ -9,7 +9,7 @@ class Exercise(models.Model):
     description = models.TextField(max_length=300)
     category = models.ForeignKey(
         'category.Category',
-        related_name='exercises',
+        related_name='exercise',
         on_delete=models.CASCADE
     )
 

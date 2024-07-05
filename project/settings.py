@@ -40,7 +40,8 @@ INSTALLED_APPS = [
     'rest_framework',
     'jwt_auth',
     'exercise',
-    'category'
+    'category',
+    'log',
 ]
 
 AUTH_USER_MODEL='jwt_auth.User'

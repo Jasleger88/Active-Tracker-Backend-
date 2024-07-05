@@ -19,7 +19,7 @@ class CategoryListView(APIView):
         serialized_category = PopulatedCategorySerializer(category, many=True)
         return Response(serialized_category.data, status=status.HTTP_200_OK)
     
-. 
+
     def post(self, request):
         category_to_add = CategorySerializer(data=request.data)
         try: 

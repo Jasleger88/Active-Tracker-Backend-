@@ -22,4 +22,5 @@ urlpatterns = [
     path('auth/', include('jwt_auth.urls')),
     path('exercise/', include('exercise.urls')),
     path('category/', include('category.urls')),
+    path('log/', include('log.urls')),
 ]

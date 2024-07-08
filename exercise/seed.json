@@ -1,0 +1,12 @@
+[
+{
+  "model": "exercise.exercise",
+  "pk": 1,
+  "fields": {
+    "name": "lat pulldown",
+    "description": "dsfsfsad",
+    "category": 1,
+    "owner": 1
+  }
+}
+]

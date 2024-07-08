@@ -12,11 +12,11 @@ class Exercise(models.Model):
         related_name='exercise',
         on_delete=models.CASCADE
     )
-    #  owner = models.ForeignKey(
-    #     "jwt_auth.User", 
-    #     related_name='logs', 
-    #     on_delete=models.CASCADE
-    # )
+    owner = models.ForeignKey(
+        "jwt_auth.User", 
+        related_name='exercise', 
+        on_delete=models.CASCADE
+    )
     
 
     

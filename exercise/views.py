@@ -20,6 +20,7 @@ class ExerciseListView(APIView):
 
     def post(self, request):
         exercise_to_add = ExerciseSerializer(data=request.data)
+        # request.data['owner']
         try: 
             exercise_to_add.is_valid()
             exercise_to_add.save()

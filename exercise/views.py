@@ -15,6 +15,7 @@ class ExerciseListView(APIView):
         return Response(serialized_exercises.data, status=status.HTTP_200_OK)
 
     def post(self, request):
+        request.data["owner"]= request.user.id
         exercise_to_add = ExerciseSerializer(data=request.data)
         try:
             exercise_to_add.is_valid(raise_exception=True)

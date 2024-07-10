@@ -28,8 +28,6 @@ class UserSerializer(serializers.ModelSerializer):
 
 #HASH THE PASSWORD
         data['password'] = make_password(password)
-
-        print('DATA ->', data)
        
         return data
 

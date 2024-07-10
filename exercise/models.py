@@ -8,7 +8,7 @@ class Exercise(models.Model):
     description = models.TextField(blank=True)
     category = models.ForeignKey(
         'category.Category',
-        related_name='exercises',
+        related_name='exercise',
         on_delete=models.CASCADE
     )
 

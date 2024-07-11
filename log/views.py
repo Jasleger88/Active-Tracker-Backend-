@@ -11,8 +11,8 @@ from .serializers.populated import PopulatedLogSerializer
 class LogListView(APIView):
     permission_classes = (IsAuthenticated, )
 
-    def get(self, _request):
-        log = Log.objects.all()
+    def get(self,request):
+        log = Log.objects.filter(owner = request.user.id)
         serialized_log = LogSerializer(log, many=True)
         return Response(serialized_log.data, status=status.HTTP_200_OK)
     

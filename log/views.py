@@ -48,9 +48,13 @@ class LogDetailView(APIView):
     def put(self, request, pk):
         log_to_update = self.get_log(pk=pk)
 
-        if log_to_update.owner != request.user.id:
+
+        if log_to_update.owner != request.user:
             return Response(status=status.HTTP_401_UNAUTHORIZED)
-        
+
+        original_owner = log_to_update.owner.id  
+        request.data['owner'] = original_owner
+            
         update_log = LogSerializer(log_to_update, data=request.data)
 
         if update_log.is_valid():

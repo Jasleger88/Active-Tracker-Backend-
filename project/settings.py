@@ -101,7 +101,7 @@ DATABASES = {}
 if ENV != 'DEV':
     DATABASES['default'] = dj_database_url.config(conn_max_age=600, ssl_require=True)	
 else:
-    Datebases ['default'] = {
+    DATABASES ['default'] = {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
         'NAME': 'active-tracker-api',
         'HOST': 'localhost',

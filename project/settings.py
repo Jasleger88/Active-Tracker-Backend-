@@ -38,6 +38,7 @@ DEBUG = ENV == 'DEV'
 
 ALLOWED_HOSTS = ['*']
 
+CSRF_TRUSTED_ORIGINS = [str(os.getenv('DEPLOY_URL'))]
 
 # Application definition
 

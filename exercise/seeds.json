@@ -1,0 +1,272 @@
+[
+{
+  "model": "exercise.exercise",
+  "pk": 7,
+  "fields": {
+    "name": "Squats",
+    "description": "Stand with feet shoulder-width apart, lower your hips as if sitting in a chair, then push through your heels to stand up",
+    "category": 5
+  }
+},
+{
+  "model": "exercise.exercise",
+  "pk": 8,
+  "fields": {
+    "name": "Lunges",
+    "description": "Step forward with one leg, lower your hips until both knees are bent at 90 degrees, then push back to the starting position.",
+    "category": 5
+  }
+},
+{
+  "model": "exercise.exercise",
+  "pk": 9,
+  "fields": {
+    "name": "Leg Press",
+    "description": "Sit on a leg press machine, push the platform away by extending your knees and hips, then return to the starting position.",
+    "category": 5
+  }
+},
+{
+  "model": "exercise.exercise",
+  "pk": 10,
+  "fields": {
+    "name": "Deadlift",
+    "description": "With feet hip-width apart, bend at hips and knees to lower a barbell, then lift by straightening hips and knees.",
+    "category": 5
+  }
+},
+{
+  "model": "exercise.exercise",
+  "pk": 11,
+  "fields": {
+    "name": "Calf Raises",
+    "description": "Stand on a raised surface with heels hanging off, raise your heels as high as possible, then lower them below the level of the platform.",
+    "category": 5
+  }
+},
+{
+  "model": "exercise.exercise",
+  "pk": 12,
+  "fields": {
+    "name": "Bicep Curls",
+    "description": "Hold a dumbbell in each hand with arms extended. Curl the weights up to shoulder level by bending your elbows, then lower them back down.",
+    "category": 1
+  }
+},
+{
+  "model": "exercise.exercise",
+  "pk": 13,
+  "fields": {
+    "name": "Tricep Dips",
+    "description": "Using a bench or chair, place your hands behind you and lower your body by bending your elbows, then push back up to the starting position",
+    "category": 1
+  }
+},
+{
+  "model": "exercise.exercise",
+  "pk": 14,
+  "fields": {
+    "name": "Push-Ups",
+    "description": "With hands placed slightly wider than shoulder-width apart, lower your body to the ground by bending your elbows, then push back up.",
+    "category": 1
+  }
+},
+{
+  "model": "exercise.exercise",
+  "pk": 15,
+  "fields": {
+    "name": "Hammer Curls",
+    "description": "Hold a dumbbell in each hand with palms facing your body. Curl the weights up while keeping your palms facing inwards, then lower them back down.",
+    "category": 1
+  }
+},
+{
+  "model": "exercise.exercise",
+  "pk": 16,
+  "fields": {
+    "name": "Tricep Extensions",
+    "description": "Hold a dumbbell with both hands overhead. Lower the weight behind your head by bending your elbows, then extend your arms back to the starting position.",
+    "category": 1
+  }
+},
+{
+  "model": "exercise.exercise",
+  "pk": 17,
+  "fields": {
+    "name": "Shoulder Press",
+    "description": "Hold a dumbbell in each hand at shoulder height, palms facing forward. Press the weights overhead until your arms are fully extended, then lower them back down.",
+    "category": 2
+  }
+},
+{
+  "model": "exercise.exercise",
+  "pk": 18,
+  "fields": {
+    "name": "Lateral Raises",
+    "description": "Hold a dumbbell in each hand at your sides. Raise your arms out to the sides until they reach shoulder height, then lower them back down.",
+    "category": 2
+  }
+},
+{
+  "model": "exercise.exercise",
+  "pk": 19,
+  "fields": {
+    "name": "Front Raises",
+    "description": "Hold a dumbbell in each hand in front of your thighs. Lift the weights straight in front of you to shoulder height, then lower them back down.",
+    "category": 2
+  }
+},
+{
+  "model": "exercise.exercise",
+  "pk": 20,
+  "fields": {
+    "name": "Arnold Press",
+    "description": "Hold dumbbells in front of your shoulders, palms facing your body. Rotate your palms outward while pressing the weights overhead, then reverse the motion to return to the starting position",
+    "category": 2
+  }
+},
+{
+  "model": "exercise.exercise",
+  "pk": 21,
+  "fields": {
+    "name": "Upright Rows",
+    "description": "Hold a barbell or dumbbells with an overhand grip. Lift the weights straight up to your collarbone by bending your elbows, then lower them back down.",
+    "category": 2
+  }
+},
+{
+  "model": "exercise.exercise",
+  "pk": 22,
+  "fields": {
+    "name": "Bench Press",
+    "description": "Lie on a bench with a barbell or dumbbells. Lower the weights to your chest, then press them back up until your arms are fully extended.",
+    "category": 3
+  }
+},
+{
+  "model": "exercise.exercise",
+  "pk": 23,
+  "fields": {
+    "name": "Push-Ups",
+    "description": "Place your hands slightly wider than shoulder-width apart on the floor. Lower your body by bending your elbows, then push back up to the starting position.",
+    "category": 3
+  }
+},
+{
+  "model": "exercise.exercise",
+  "pk": 24,
+  "fields": {
+    "name": "Chest Flyes",
+    "description": "Lie on a bench with a dumbbell in each hand, arms extended above your chest. Lower the weights out to the sides in a wide arc, then bring them back up to the starting position.",
+    "category": 3
+  }
+},
+{
+  "model": "exercise.exercise",
+  "pk": 25,
+  "fields": {
+    "name": "Incline Bench Press",
+    "description": "Lie on an incline bench with a barbell or dumbbells. Lower the weights to your upper chest, then press them back up until your arms are fully extended.",
+    "category": 3
+  }
+},
+{
+  "model": "exercise.exercise",
+  "pk": 26,
+  "fields": {
+    "name": "Chest Dips",
+    "description": "Hold onto parallel bars with your arms straight. Lower your body by bending your elbows until your upper arms are parallel to the floor, then push back up to the starting position.",
+    "category": 3
+  }
+},
+{
+  "model": "exercise.exercise",
+  "pk": 27,
+  "fields": {
+    "name": "Plank",
+    "description": "Hold a push-up position with your body in a straight line from head to heels, resting on your forearms. Keep your core tight and hold the position.",
+    "category": 6
+  }
+},
+{
+  "model": "exercise.exercise",
+  "pk": 28,
+  "fields": {
+    "name": "Russian Twists",
+    "description": "Sit on the floor with knees bent and feet lifted. Lean back slightly, hold a weight or medicine ball, and twist your torso to the right and left.",
+    "category": 6
+  }
+},
+{
+  "model": "exercise.exercise",
+  "pk": 29,
+  "fields": {
+    "name": "Bicycle Crunches",
+    "description": "Lie on your back with hands behind your head. Bring one knee towards your chest while simultaneously twisting your opposite elbow towards it, alternating sides",
+    "category": 6
+  }
+},
+{
+  "model": "exercise.exercise",
+  "pk": 30,
+  "fields": {
+    "name": "Leg Raises",
+    "description": "Lie on your back with legs straight. Lift your legs towards the ceiling, keeping them straight, then slowly lower them back down without touching the floor.",
+    "category": 6
+  }
+},
+{
+  "model": "exercise.exercise",
+  "pk": 31,
+  "fields": {
+    "name": "Mountain Climbers",
+    "description": "Start in a plank position. Bring one knee towards your chest, then quickly switch legs, mimicking a running motion while keeping your body straight.",
+    "category": 6
+  }
+},
+{
+  "model": "exercise.exercise",
+  "pk": 32,
+  "fields": {
+    "name": "Pull-Ups",
+    "description": "Hang from a pull-up bar with an overhand grip, hands shoulder-width apart. Pull your body up until your chin is above the bar, then lower back down",
+    "category": 4
+  }
+},
+{
+  "model": "exercise.exercise",
+  "pk": 33,
+  "fields": {
+    "name": "Bent-Over Rows",
+    "description": "Hold a barbell or dumbbells with an overhand grip. Bend at the hips with a slight bend in the knees, then pull the weight towards your lower chest, squeezing your shoulder blades together, and lower it back down.",
+    "category": 4
+  }
+},
+{
+  "model": "exercise.exercise",
+  "pk": 34,
+  "fields": {
+    "name": "Lat Pulldowns",
+    "description": "Sit at a lat pulldown machine, grip the bar with hands wider than shoulder-width. Pull the bar down to your chest, squeezing your shoulder blades together, then slowly release it back up.",
+    "category": 4
+  }
+},
+{
+  "model": "exercise.exercise",
+  "pk": 35,
+  "fields": {
+    "name": "T-Bar Rows",
+    "description": "Stand with feet shoulder-width apart, bend at the hips, and grasp the T-bar row handle. Pull the weight towards your lower chest, squeezing your shoulder blades together, then lower it back down",
+    "category": 4
+  }
+},
+{
+  "model": "exercise.exercise",
+  "pk": 36,
+  "fields": {
+    "name": "Seated Cable Rows",
+    "description": "Sit at a cable row machine with feet placed against the footrests. Grasp the cable handle with both hands, keep your back straight, and pull the handle towards your abdomen, squeezing your shoulder blades together. Slowly release the handle back to the starting position.",
+    "category": 4
+  }
+}
+]

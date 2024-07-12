@@ -38,7 +38,7 @@ DEBUG = ENV == 'DEV'
 
 ALLOWED_HOSTS = ['*']
 
-CSRF_TRUSTED_ORIGINS = [str(os.getenv('DEPLOY_URL'))]
+CSRF_TRUSTED_ORIGINS = ["https://active-tracker-5b42c6d6f24a.herokuapp.com"]
 
 # Application definition
 
